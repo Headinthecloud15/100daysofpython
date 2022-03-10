@@ -84,9 +84,9 @@ while end == False:
     print("You Win")
 
   
-  if '_' in display:
+  if guess not in chosen_word:
     lives -= 1
     if lives == 0:
       end = True
       print("You lose")
-  print(stages[lives])
+    print(stages[lives])
