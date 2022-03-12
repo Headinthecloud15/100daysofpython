@@ -1,0 +1,103 @@
+2022-02-16 18:44:18,220 - root - INFO - this is an info
+2022-02-16 18:44:18,220 - root - WARNING - this is a warning
+2022-02-16 18:44:18,220 - root - ERROR - this is a error
+2022-02-16 18:44:18,220 - root - CRITICAL - this is a critical
+2022-02-16 18:44:18,220 - root - INFO - this is an info
+2022-02-16 18:44:18,220 - root - WARNING - this is a warning
+2022-02-16 18:44:18,220 - root - ERROR - this is a error
+2022-02-16 18:44:18,220 - root - CRITICAL - this is a critical
+2022-02-16 18:44:18,221 - telegram.ext.dispatcher - DEBUG - Setting singleton dispatcher as <telegram.ext.dispatcher.Dispatcher object at 0x101461e10>
+2022-02-16 18:44:18,221 - apscheduler.scheduler - INFO - Scheduler started
+2022-02-16 18:44:18,222 - apscheduler.scheduler - DEBUG - Looking for jobs to run
+2022-02-16 18:44:18,222 - telegram.bot - DEBUG - Entering: get_me
+2022-02-16 18:44:18,222 - apscheduler.scheduler - DEBUG - No jobs; waiting until a job is added
+2022-02-16 18:44:19,673 - telegram.bot - DEBUG - Exiting: get_me
+2022-02-16 18:44:19,674 - telegram.ext.updater - DEBUG - Bot:2051551870:dispatcher - started
+2022-02-16 18:44:19,674 - telegram.ext.updater - DEBUG - Bot:2051551870:updater - started
+2022-02-16 18:44:19,674 - telegram.ext.updater - DEBUG - Waiting for Dispatcher and polling to start
+2022-02-16 18:44:19,674 - telegram.ext.updater - DEBUG - Updater thread started (polling)
+2022-02-16 18:44:19,675 - telegram.ext.updater - DEBUG - Start network loop retry bootstrap del webhook
+2022-02-16 18:44:19,675 - telegram.ext.dispatcher - DEBUG - Dispatcher started
+2022-02-16 18:44:19,675 - telegram.ext.updater - DEBUG - Deleting webhook
+2022-02-16 18:44:19,675 - telegram.bot - DEBUG - Entering: delete_webhook
+2022-02-16 18:44:19,774 - telegram.bot - DEBUG - True
+2022-02-16 18:44:19,775 - telegram.bot - DEBUG - Exiting: delete_webhook
+2022-02-16 18:44:19,775 - telegram.ext.updater - DEBUG - Bootstrap done
+2022-02-16 18:44:19,775 - telegram.ext.updater - DEBUG - Start network loop retry getting Updates
+2022-02-16 18:44:19,775 - telegram.bot - DEBUG - Entering: get_updates
+2022-02-16 18:44:24,358 - telegram.bot - DEBUG - Getting updates: [214860936]
+2022-02-16 18:44:24,361 - telegram.bot - DEBUG - [<telegram.update.Update object at 0x102d7df40>]
+2022-02-16 18:44:24,362 - telegram.bot - DEBUG - Exiting: get_updates
+2022-02-16 18:44:24,362 - telegram.bot - DEBUG - Entering: get_updates
+2022-02-16 18:44:24,365 - telegram.bot - DEBUG - Entering: send_message
+2022-02-16 18:44:24,924 - telegram.bot - DEBUG - Exiting: send_message
+2022-02-16 18:44:26,717 - telegram.bot - DEBUG - Getting updates: [214860937]
+2022-02-16 18:44:26,722 - telegram.bot - DEBUG - [<telegram.update.Update object at 0x102df71c0>]
+2022-02-16 18:44:26,722 - telegram.bot - DEBUG - Exiting: get_updates
+2022-02-16 18:44:26,722 - telegram.bot - DEBUG - Entering: get_updates
+2022-02-16 18:44:26,724 - telegram.bot - DEBUG - Entering: send_message
+2022-02-16 18:44:26,845 - telegram.bot - DEBUG - Exiting: send_message
+2022-02-16 18:44:26,845 - telegram.bot - DEBUG - Entering: send_message
+2022-02-16 18:44:26,975 - telegram.bot - DEBUG - Entering: send_message
+2022-02-16 18:44:27,123 - telegram.bot - DEBUG - Exiting: send_message
+2022-02-16 18:44:27,123 - telegram.bot - DEBUG - Entering: send_message
+2022-02-16 18:44:27,275 - telegram.bot - DEBUG - Exiting: send_message
+2022-02-16 18:44:30,569 - telegram.bot - DEBUG - Getting updates: [214860938]
+2022-02-16 18:44:30,569 - telegram.bot - DEBUG - [<telegram.update.Update object at 0x102d7df40>]
+2022-02-16 18:44:30,569 - telegram.bot - DEBUG - Exiting: get_updates
+2022-02-16 18:44:30,570 - telegram.bot - DEBUG - Entering: get_updates
+2022-02-16 18:44:30,597 - telegram.bot - DEBUG - Entering: send_message
+2022-02-16 18:44:30,994 - telegram.bot - DEBUG - Exiting: send_message
+2022-02-16 18:44:40,948 - telegram.bot - DEBUG - No new updates found.
+2022-02-16 18:44:40,949 - telegram.bot - DEBUG - []
+2022-02-16 18:44:40,949 - telegram.bot - DEBUG - Exiting: get_updates
+2022-02-16 18:44:40,949 - telegram.bot - DEBUG - Entering: get_updates
+2022-02-16 18:44:51,038 - telegram.bot - DEBUG - No new updates found.
+2022-02-16 18:44:51,038 - telegram.bot - DEBUG - []
+2022-02-16 18:44:51,039 - telegram.bot - DEBUG - Exiting: get_updates
+2022-02-16 18:44:51,039 - telegram.bot - DEBUG - Entering: get_updates
+2022-02-16 18:45:01,419 - telegram.bot - DEBUG - No new updates found.
+2022-02-16 18:45:01,419 - telegram.bot - DEBUG - []
+2022-02-16 18:45:01,419 - telegram.bot - DEBUG - Exiting: get_updates
+2022-02-16 18:45:01,419 - telegram.bot - DEBUG - Entering: get_updates
+2022-02-16 18:45:11,509 - telegram.bot - DEBUG - No new updates found.
+2022-02-16 18:45:11,509 - telegram.bot - DEBUG - []
+2022-02-16 18:45:11,510 - telegram.bot - DEBUG - Exiting: get_updates
+2022-02-16 18:45:11,510 - telegram.bot - DEBUG - Entering: get_updates
+2022-02-16 18:45:21,877 - telegram.bot - DEBUG - No new updates found.
+2022-02-16 18:45:21,877 - telegram.bot - DEBUG - []
+2022-02-16 18:45:21,877 - telegram.bot - DEBUG - Exiting: get_updates
+2022-02-16 18:45:21,877 - telegram.bot - DEBUG - Entering: get_updates
+2022-02-16 18:45:31,962 - telegram.bot - DEBUG - No new updates found.
+2022-02-16 18:45:31,967 - telegram.bot - DEBUG - []
+2022-02-16 18:45:31,968 - telegram.bot - DEBUG - Exiting: get_updates
+2022-02-16 18:45:31,968 - telegram.bot - DEBUG - Entering: get_updates
+2022-02-16 18:45:42,358 - telegram.bot - DEBUG - No new updates found.
+2022-02-16 18:45:42,358 - telegram.bot - DEBUG - []
+2022-02-16 18:45:42,358 - telegram.bot - DEBUG - Exiting: get_updates
+2022-02-16 18:45:42,358 - telegram.bot - DEBUG - Entering: get_updates
+2022-02-16 18:45:42,707 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2022-02-16 18:45:42,707 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2022-02-16 18:45:42,708 - apscheduler.scheduler - DEBUG - Looking for jobs to run
+2022-02-16 18:45:42,708 - apscheduler.scheduler - DEBUG - No jobs; waiting until a job is added
+2022-02-16 18:45:42,709 - telegram.ext.updater - DEBUG - Stopping Updater and Dispatcher...
+2022-02-16 18:45:42,709 - telegram.ext.updater - DEBUG - Requesting Dispatcher to stop...
+2022-02-16 18:45:43,208 - telegram.ext.dispatcher - DEBUG - orderly stopping
+2022-02-16 18:45:43,208 - telegram.ext.dispatcher - DEBUG - Dispatcher thread stopped
+2022-02-16 18:45:43,208 - telegram.ext.updater - DEBUG - Bot:2051551870:dispatcher - ended
+2022-02-16 18:45:43,219 - telegram.ext.dispatcher - DEBUG - Waiting for async thread 1/4 to end
+2022-02-16 18:45:43,219 - telegram.ext.dispatcher - DEBUG - async thread 1/4 has ended
+2022-02-16 18:45:43,219 - telegram.ext.dispatcher - DEBUG - Waiting for async thread 2/4 to end
+2022-02-16 18:45:43,220 - telegram.ext.dispatcher - DEBUG - async thread 2/4 has ended
+2022-02-16 18:45:43,220 - telegram.ext.dispatcher - DEBUG - Waiting for async thread 3/4 to end
+2022-02-16 18:45:43,220 - telegram.ext.dispatcher - DEBUG - async thread 3/4 has ended
+2022-02-16 18:45:43,220 - telegram.ext.dispatcher - DEBUG - Waiting for async thread 4/4 to end
+2022-02-16 18:45:43,220 - telegram.ext.dispatcher - DEBUG - async thread 4/4 has ended
+2022-02-16 18:45:43,220 - telegram.ext.updater - DEBUG - Waiting for Bot:2051551870:dispatcher thread to end
+2022-02-16 18:45:43,220 - telegram.ext.updater - DEBUG - Bot:2051551870:dispatcher thread has ended
+2022-02-16 18:45:43,220 - telegram.ext.updater - DEBUG - Waiting for Bot:2051551870:updater thread to end
+2022-02-16 18:45:52,445 - telegram.bot - DEBUG - No new updates found.
+2022-02-16 18:45:52,445 - telegram.bot - DEBUG - []
+2022-02-16 18:45:52,445 - telegram.bot - DEBUG - Exiting: get_updates
+2022-02-16 18:45:52,445 - telegram.ext.updater - DEBUG - Bot:2051551870:updater - ended
+2022-02-16 18:45:52,445 - telegram.ext.updater - DEBUG - Bot:2051551870:updater thread has ended
