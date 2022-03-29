@@ -28,3 +28,7 @@ num2 = int(input("What's the second number?: "))
 
 for i in operators:
     print (i)
+operation_symbol = input("pick an operation from the line above:")
+
+calculation_function = operators[operation_symbol]
+answer = calculation_function(num1, num2)
