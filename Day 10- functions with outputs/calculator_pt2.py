@@ -37,4 +37,4 @@ while not_end == True:
     if choice == "y":
         num1 = answer
     else:
-        not_end == False
+        not_end = False
