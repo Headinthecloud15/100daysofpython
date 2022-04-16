@@ -2,25 +2,22 @@ from coffee_data import MENU
 from coffee_data import resources
 
 report = resources
+espresso = MENU["espresso"]["ingredients"]
+latte = MENU["latte"]["ingredients"]
+cappuccino = MENU["cappuccino"]["ingredients"]
 
-
-
-
-
-# function that will calculate ingredients and subtracts from total resources
+# function that will take input and return ingredients
 
 def coffee_flavor(choice):
-    espresso = MENU["espresso"]["ingredients"]
-    latte = MENU["latte"]["ingredients"]
-    cappuccino = MENU["cappuccino"]["ingredients"]
     if choice == 'espresso':
-        print(espresso)
+        return espresso
     elif choice == 'latte':
-        print(latte)
+        return latte
     elif choice == 'cappuccino':
-        print(cappuccino)
+        return cappuccino
     
 
-
 choice = input("What would you like? 'espresso', 'latte', or 'cappuccino' ")
-coffee_flavor(choice)
+coffee_ingredients = coffee_flavor(choice)
+print(resources - coffee_ingredients)
+
