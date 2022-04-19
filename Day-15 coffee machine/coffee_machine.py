@@ -1,7 +1,7 @@
 from coffee_data import MENU
 from coffee_data import resources
 
-
+profit = 0
 espresso = MENU["espresso"]["ingredients"]
 latte = MENU["latte"]["ingredients"]
 cappuccino = MENU["cappuccino"]["ingredients"]
@@ -37,14 +37,11 @@ def total_amount(choice):
     elif choice == 'cappuccino':
         return cappuccino_price
 
-choice = input("What would you like? 'espresso', 'latte', or 'cappuccino' ")
-if choice == 'report':
-        print(resources)
-total_price = "{:.2f}".format(total_amount(choice))
-print(f"You're total is {total_price} Please insert coins ")
 
+# function that will check if transaction is successful
 def money_inserted():
     """function that will take the input of the amount of coins inserted and calculate the total"""
+    profit = 0
     quarters = int(input("How many quarters? ")) * monetary_value["quarter"]
     dimes = int(input("How many dimes? ")) * monetary_value["dime"]
     nickels = int(input("How many nickels? ")) * monetary_value["nickel"]
@@ -56,11 +53,25 @@ def money_inserted():
         change = "{:.2f}".format( float(total) - float(total_price))
         print(f"Here is {change} dollars in change")
     elif total == total_price:
-        resources["money"] = total_price
-        print(resources)
+        profit += float(total)
+        print(profit)
 
+is_on = True
 
-money_inserted()
+while is_on:
+
+    choice = input("What would you like? 'espresso', 'latte', or 'cappuccino' ")
+    if choice == 'report':
+        print(f"water: {resources['water']} ml")
+        print(f"milk: {resources['milk']} ml")
+        print(f"coffee: {resources['coffee']} ml")
+        print(f"money: {profit}")
+    elif choice == 'off':
+        is_on = False
+    else:
+        total_price = "{:.2f}".format(total_amount(choice))
+        print(f"You're total is {total_price} Please insert coins ")
+        money_inserted()
 
 
 
@@ -73,7 +84,7 @@ money_inserted()
 
 # function that will take the input of coffee_ingredients and subtract it from the total resources
 
-# function that will check if transaction is successful
+
 
 
 
