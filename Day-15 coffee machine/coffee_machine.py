@@ -33,9 +33,9 @@ def total_amount(choice):
     if choice == 'espresso':
        return espresso_price
     elif choice == 'latte':
-        return espresso_price
+        return latte_price
     elif choice == 'cappuccino':
-        return espresso_price
+        return cappuccino_price
 
 choice = input("What would you like? 'espresso', 'latte', or 'cappuccino' ")
 if choice == 'report':
