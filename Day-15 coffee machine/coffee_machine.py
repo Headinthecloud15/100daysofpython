@@ -9,6 +9,7 @@ espresso_price = 1.50
 latte_price = 2.50
 cappuccino_price = 3.00
 
+
 # dictionary that stores the monetary value of the coins
 monetary_value ={
     "quarter" : 0.25, 
@@ -96,7 +97,6 @@ while is_on:
 
 
 
-# function that will take the input of coffee_ingredients and subtract it from the total resources
 
 
 
