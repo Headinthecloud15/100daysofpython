@@ -38,6 +38,15 @@ def total_amount(choice):
         return cappuccino_price
 
 
+def check_resources():
+    coffee_ingredients = coffee_flavor(choice)
+    is_enough = True
+    for item in coffee_ingredients:
+        if coffee_ingredients >= resources[item]:
+            print(f"Sorry, there is not enough {item}")
+            is_enough = False
+    return is_enough
+
 # function that will check if transaction is successful
 def money_inserted():
     """function that will take the input of the amount of coins inserted and calculate the total"""
@@ -56,10 +65,13 @@ def money_inserted():
         profit += float(total)
         print(profit)
 
+
+
+
 is_on = True
 
 while is_on:
-
+   
     choice = input("What would you like? 'espresso', 'latte', or 'cappuccino' ")
     if choice == 'report':
         print(f"water: {resources['water']} ml")
@@ -69,6 +81,7 @@ while is_on:
     elif choice == 'off':
         is_on = False
     else:
+        check_resources()
         total_price = "{:.2f}".format(total_amount(choice))
         print(f"You're total is {total_price} Please insert coins ")
         money_inserted()
@@ -80,7 +93,8 @@ while is_on:
 
     
 
-#coffee_ingredients = coffee_flavor(choice)
+
+
 
 # function that will take the input of coffee_ingredients and subtract it from the total resources
 
